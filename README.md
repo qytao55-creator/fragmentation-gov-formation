@@ -29,7 +29,7 @@ A full research note is available in `paper/research_note.md`.
 OLS regression with country fixed effects and country-clustered standard errors, estimated using the `fixest` package in R. Three model specifications are reported, alongside two robustness checks using alternative dependent variables.
 
 ## Repository Structure
-
+```
 ├── data/
 │   ├── raw/          # Original ParlGov CSV files
 │   └── processed/    # Cleaned and merged analysis dataset
@@ -41,7 +41,7 @@ OLS regression with country fixed effects and country-clustered standard errors,
 ├── paper/
 │   └── research_note.md
 └── README.md
-
+```
 ## Key Findings
 
 - At the cross-national level, higher fragmentation is associated with longer government formation processes.
